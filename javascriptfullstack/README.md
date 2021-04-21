@@ -1,4 +1,4 @@
-# fullstackjs
+# javascriptfullstack
 
 ## Project setup
 ```
