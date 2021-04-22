@@ -22,7 +22,7 @@
     <label>Email <input type="email" name="email" /></label>
   </p>
   <p>
-          <router-link to="/contact">
+          <router-link to="/">
         <button type="submit">Send</button>
       </router-link>
   </p>
