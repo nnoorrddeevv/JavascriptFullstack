@@ -1,0 +1,5 @@
+/home           /
+/about          /about
+/contact        /contact
+/contact/POST   /contact
+/products       /products
