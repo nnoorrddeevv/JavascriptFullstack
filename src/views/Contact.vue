@@ -15,18 +15,19 @@
 
     </form> -->
     <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-          <router-link to="/">
-        <button type="submit">Send</button>
-      </router-link>
-  </p>
-</form>
+      <p>
+        <label>Name <input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label>Email <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <router-link to="/">
+          <button type="submit">Send</button>
+        </router-link>
+      </p>
+    </form>
+    
   </div>
 </template>
 
