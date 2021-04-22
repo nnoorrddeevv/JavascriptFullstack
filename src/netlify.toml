@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "https://fullstackjs.nordev.tech/index.html"
   status = 200
