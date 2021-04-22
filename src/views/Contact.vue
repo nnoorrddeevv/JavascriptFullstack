@@ -1,21 +1,13 @@
 <template>
   <div class="contact">
     <h1>This is the contact page</h1>
-    <form name="contact" method="POST" data-netlify="true" action="/">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
+    <form name="contact" method="POST" data-netlify="true">
+      <label>Your Name: <input type="text" name="name" /></label>   
+      <label>Your Email: <input type="email" name="email" /></label>
+      <label>Message: <textarea name="message"></textarea></label>
+      <div data-netlify-recaptcha="true"></div>
+      <input type="submit" value="Send Message">
+    </form>
   </div>
 </template>
 
