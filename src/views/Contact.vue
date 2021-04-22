@@ -1,12 +1,19 @@
 <template>
   <div class="contact">
     <h1>This is the contact page</h1>
-    <form name="contact" method="POST" data-netlify="true">
+    <form 
+    name="contact" 
+    method="POST" 
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="ask-question" />
       <label>Your Name: <input type="text" name="name" /></label>   
       <label>Your Email: <input type="email" name="email" /></label>
       <label>Message: <textarea name="message"></textarea></label>
-      <div data-netlify-recaptcha="true"></div>
-      <input type="submit" value="Send Message">
+      <router-link to="/contact">
+        <button type="submit">Send</button>
+      </router-link>
     </form>
   </div>
 </template>
@@ -22,5 +29,14 @@ export default {
   setup() {
     
   },
+
+  data() {
+    return {
+
+    }
+  },
+  methods: {
+    
+  }
 }
 </script>
