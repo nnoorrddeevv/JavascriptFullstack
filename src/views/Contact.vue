@@ -14,16 +14,16 @@
       <div netlify-recaptcha></div>
 
     </form> -->
-    <form name="contact" netlify>
+    <form netlify method="POST">
       <p>
-        <label>Name <input type="text" name="name" /></label>
+        <label>Name <input type="text" name="name" placeholder="Name" /></label>
       </p>
       <p>
-        <label>Email <input type="email" name="email" /></label>
+        <label>Email <input type="email" name="email" placeholder="Email"/></label>
       </p>
       <p>
         <router-link to="/">
-          <button type="submit">Send</button>
+          <input type="submit" value="Send Message" />
         </router-link>
       </p>
     </form>
